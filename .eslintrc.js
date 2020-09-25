@@ -8,7 +8,6 @@ module.exports = {
   extends: ['standard', 'prettier', 'prettier/standard'],
   plugins: ['prettier'],
   rules: {
-    'promise/catch-or-return': 'error',
     'prettier/prettier': [
       'error',
       {
